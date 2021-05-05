@@ -1,1 +1,199 @@
+:root {
+    --ff-primary: 'Anaheim', sans-serif;
+    --ff-secondary: 'Lato', sans-serif;
+    --clr-gray: rgb(82, 82, 82);
+    --clr-blue: rgba(173, 216, 230, 0.37);
+    --clr-orange2: rgba(255, 166, 0, 0.438);
+    --clr-orange1: rgba(255, 166, 0, 0.644);
+}
+
+a{
+    text-decoration: none;
+}
+
+* { margin: 0; padding: 0; }
+
+/* Nav Bar */
+nav{
+    background-color: var(--clr-gray);
+    height: 5rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links{
+    display: inline-flex;
+    
+}
+
+nav a{
+    color: white;
+    margin-right: 1rem;
+    text-transform: capitalize;
+    font-size: 1.25rem;  
+}
+
+nav a:hover{
+    color: var(--clr-orange1);
+    border-bottom: 1px solid;
+
+}
+
+/* Hero Box */
+.hero-box h1{
+    font-family: var(--ff-primary);
+    font-size: 5rem;
+    transition: font-size 1s, linear 500ms;
+}
+.hero-box h1:hover{
+    font-size: 6rem;
+    
+}
+.hero-box{
+    color: white;
+    letter-spacing: 0.25rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 35rem;
+    /* background-color: var(--clr-blue); */
+    background: url(/images/cave1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    /* height: 100%; */
+    overflow: hidden;
+    
+}
+
+/* Main */
+.main{
+    min-height: 100vh;
+}
+
+body{
+    font-family: var(--ff-secondary);
+    /* background-color:rgb(97, 97, 97); */
+    margin: 0;
+}
+
+section{
+    /* display: inline-grid; */
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 2fr; */
+    text-align: center;
+    height: 20rem;
+    padding: 20px 20px;
+    background-color: var(--clr-orange2);
+    margin: 0 auto;
+
+}
+
+section p{
+    font-size: 1.75rem;
+}
+section h3{
+    font-size: 2.5rem;
+}
+
+.first-section{
+    background-color: var(--clr-orange1);
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card1, .card2{
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    /* flex-wrap: wrap; */
+    height: 20rem;
+    /* background-color: purple; */
+
+}
+
+.card2{
+ flex-direction: row-reverse;
+}
+.card1 h2, .card2 h2{ 
+    /* background-color: pink; */
+    margin-bottom: 1rem;
+}
+
+.card1 p, .card2 p{  
+    /* background-color: orange; */
+    font-size: 1.25rem;
+}
+
+
+
+.card-info{
+    padding: 2rem;
+}
+
+.image-box{  
+    min-width: 18rem;
+    height: 15rem; 
+    margin: 1rem;
+    align-self: center; 
+}
+
+#ice-cave{
+    background: url("/images/cave2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#antelope-cave{
+    background: url("/images/antelope2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+header{
+    text-align: center;
+    padding: 5rem;
+}
+header h1{
+    font-size: 4rem;
+    font-family: var(--ff-primary);
+}
+
+header p{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+footer{
+    height: 5rem;
+    display: grid;
+    color: white;
+    font-size: 1.25rem;
+    place-items: center;
+    background-color: var(--clr-gray);
+}
+
+/* Caving Page */
+#caving{
+    /* background-color: var(--clr-orange1); */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#caving h2{
+    font-style: italic;
+
+}
+#caving .section{
+    background-color: transparent;
+    text-align: left;
+    margin: 1rem;
+    width: 700px;
+    
+}
 
