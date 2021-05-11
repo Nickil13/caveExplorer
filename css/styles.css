@@ -77,7 +77,7 @@ nav a:hover{
     height: 25rem;
     width: 100%;
     
-    background: url("/cave1.jpg");
+    background: url("../cave1.jpg");
     background-position: center;
     background-size: cover;
     padding: 2em;
