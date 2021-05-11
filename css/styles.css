@@ -190,13 +190,13 @@ section{
 }
 
 #glowworm-cave{
-    background: url("/images/glowworm1.jpg");
+    background: url("../images/glowworm1.jpg");
     background-size: cover;
     background-position: center;
 }
 
 #marble-cave{
-    background: url("/images/marble2.jpg");
+    background: url("./images/marble2.jpg");
     background-size: cover;
     background-position: center;
 }
