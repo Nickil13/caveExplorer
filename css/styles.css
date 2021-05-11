@@ -184,19 +184,19 @@ section{
 }
 
 #antelope-cave{
-    background: url("/images/antelope2.jpg");
+    background: url("/images/antelope2.JPG");
     background-size: cover;
     background-position: center;
 }
 
 #glowworm-cave{
-    background: url("../images/glowworm1.jpg");
+    background: url("../images/glowworm1.JPG");
     background-size: cover;
     background-position: center;
 }
 
 #marble-cave{
-    background: url("./images/marble2.jpg");
+    background: url("./images/marble2.JPG");
     background-size: cover;
     background-position: center;
 }
