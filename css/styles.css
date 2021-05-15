@@ -30,6 +30,7 @@ p{
 
 /* Nav Bar */
 nav{
+    /* background-color: var(--clr-gray); */
     background-color: var(--clr-accent1);
     height: 5rem;
     display: grid;
@@ -69,18 +70,15 @@ nav a:hover{
     height: 25rem;
     position: relative;
     background-color: rgba(63, 62, 62, 0.4);
-    padding: 2em;
 }
 
 .hero-overlay{
     position: absolute;
     height: 25rem;
     width: 100%;
-    
-    background: url("../images/cave1.jpg");
+    background: url(/images/cave1.jpg);
     background-position: center;
     background-size: cover;
-    padding: 2em;
 }
 
 
@@ -168,7 +166,7 @@ section{
 }
 
 .image-box{ 
-    --width: 25rem;
+    --width: 20rem;
     --height: 18rem;
     width: var(--width);
     height: var(--height);
@@ -178,25 +176,25 @@ section{
 
 
 #ice-cave{
-    background: url("../images/cave2.jpg");
+    background: url("/images/cave2.jpg");
     background-size: cover;
     background-position: center;
 }
 
 #antelope-cave{
-    background: url("../images/antelope2.jpg");
+    background: url("/images/antelope2.jpg");
     background-size: cover;
     background-position: center;
 }
 
 #glowworm-cave{
-    background: url("../images/glowworm1.jpg");
+    background: url("/images/glowworm1.jpg");
     background-size: cover;
     background-position: center;
 }
 
 #marble-cave{
-    background: url("../images/marble2.jpg");
+    background: url("/images/marble2.jpg");
     background-size: cover;
     background-position: center;
 }
