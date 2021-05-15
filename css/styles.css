@@ -76,7 +76,7 @@ nav a:hover{
     position: absolute;
     height: 25rem;
     width: 100%;
-    background: url(/images/cave1.jpg);
+    background: url("../images/cave1.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -176,25 +176,25 @@ section{
 
 
 #ice-cave{
-    background: url("/images/cave2.jpg");
+    background: url("../images/cave2.jpg");
     background-size: cover;
     background-position: center;
 }
 
 #antelope-cave{
-    background: url("/images/antelope2.jpg");
+    background: url("../images/antelope2.jpg");
     background-size: cover;
     background-position: center;
 }
 
 #glowworm-cave{
-    background: url("/images/glowworm1.jpg");
+    background: url("../images/glowworm1.jpg");
     background-size: cover;
     background-position: center;
 }
 
 #marble-cave{
-    background: url("/images/marble2.jpg");
+    background: url("../images/marble2.jpg");
     background-size: cover;
     background-position: center;
 }
